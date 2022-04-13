@@ -1,0 +1,287 @@
+/* BANNER  */
+#banner{   
+    height: 100vh;
+    position: relative;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 100px 0px;
+    background: linear-gradient(-45deg, #BE7656, #4B1F0E);
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    font-size: 25px !important;
+}
+.navbar-kita{
+    width: 95%;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+.img-banner{
+    width: 450px;
+}
+.contact-btn{
+    background-color: transparent;
+    color: #4B1F0E !important;
+    border: 2px solid #4B1F0E;
+    width: 120px;
+    height: 40px;
+}
+.contact-btn:hover{
+    background-color: #4B1F0E;
+    color: white !important;
+}
+.banner-title{
+    font-size: 60px;
+}
+.text-container{
+    width: 60%;
+}
+.img-container{
+    width: 40%;
+}
+
+/* Metode */
+#metode{
+    height: auto;
+    padding: 50px 30px;
+    border-top-left-radius: 60px;
+    border-end-end-radius: 60px;
+    margin-top: -50px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-img{
+    max-width: 40px;
+}
+
+.img-bg{
+    background: #4b1f0e17;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-desc{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.metode-card{
+    color: #4B1F0E;
+    transition: ease 0.5s;
+}
+.metode-card:hover{
+    background-color: #4B1F0E;
+    color: white;
+    border-radius: 20px;
+}
+.metode-card:hover .img-bg{
+    background-color: rgba(255, 255, 255, 0.123);
+}
+/* Menu */
+#menu{
+    margin-top: -50px;
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+}
+.img-menu{
+    display: block;
+    margin: 0 auto;
+}
+#frame-menu{
+    height: 90px;
+    background: transparent;
+    display: block;
+    margin-bottom: 40px;
+    justify-items: center;
+    border-radius: 10px;
+    padding-inline-start: 100px;
+    transition: ease 1s;
+}
+.menu-card{
+    background-color: rgba(255, 255, 255, 0.205) !important;
+}
+
+/* Ulasan Section */
+#ulasan{
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+}
+
+/* Diskon Terselubung */
+#diskon{
+    background: #fff;
+}
+.card-diskon{
+    background: linear-gradient(45deg, #aa8372, #4B1F0E);
+}
+
+/* Kontak Session */
+#kontak{
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.order-btn{
+    background-color: #4B1F0E;
+    color: #fff !important;
+    border: 2px solid #35160a;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    transition: ease 0.4s;
+    text-decoration: none;
+}
+
+.order-btn:hover{
+    background-color: #fff;
+    color: #4B1F0E !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+    .nav-rr{
+        padding: 0px 0px !important;
+        justify-content: space-between !important;
+    }
+    .img-banner{
+        width: 100% !important;
+    }
+    .banner-title{
+        font-size: xxx-large !important;
+    }
+    .fs-5{
+        font-size: large !important;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 767px){
+    #banner{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        padding: 110px 0px 30px 0px !important;
+    }
+    .text-container{
+        flex-basis: 100% !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .img-container{
+        flex-basis: 100% !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    .banner-desc{
+        text-align: center;
+    }
+    #metode{
+        margin-top: 0px !important;
+    }
+    .display-frame{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    #banner{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        height: auto !important;
+        padding: 110px 0px 30px 0px !important;
+    }
+    .text-container{
+        flex-basis: 100% !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .img-container{
+        flex-basis: 100% !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .banner-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner-desc{
+        text-align: center;
+        font-size: 25px !important;
+    }
+    #metode{
+        margin-top: 0px;
+    }
+    .logo-text{
+        font-size: 20px;
+        margin-left: 0px !important;
+    }
+    .nav-rr{
+        padding: 0px !important;
+    }
+
+}
+
+/* Background Color */
+.bg-utama{
+    background-color: #4B1F0E;
+}
+.bg-sekon{
+    background-color: #BE7656;
+}
+.bg-third{
+    background-color: #EFC3A4;
+}
+.bg-darker{
+    background-color: #0E0504;
+}
+
+/* Font Color */
+.fc-utama{
+    color: #4B1F0E;
+}
+.fc-sekon{
+    color: #BE7656;
+}
+.fc-third{
+    color: #EFC3A4;
+}
+.fc-darker{
+    color: #0E0504;
+}
+
+/* Choosed Font */
+.lobster-font{
+    font-family: 'Lobster', cursive;
+}
+.cabin-font{
+    font-family: 'Cabin', sans-serif;
+}
+.balsamiq-font{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.parisianne-font{
+    font-family: 'Parisienne', cursive;
+}
